@@ -1,0 +1,7 @@
+---
+- name: Enable Tap to Click
+  osx_defaults: domain=com.apple.AppleMultitouchTrackpad key=Clicking type=int value=1
+
+- name: 'Dock autohide'
+  osx_defaults: domain=com.apple.dock key=autohide type=int value=1
+  notify: Restart Dock

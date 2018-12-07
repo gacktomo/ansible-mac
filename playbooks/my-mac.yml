@@ -1,0 +1,9 @@
+---
+- hosts: localhost
+  connection: local
+  #become: yes
+  #gather_facts: no
+  roles:
+    - 'system-settings'
+    - 'gui-apps'
+      #    - 'homebrew'

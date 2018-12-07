@@ -1,0 +1,21 @@
+---
+- name: install homebrew packages
+  homebrew:
+    name:
+      - git
+      - go
+      - hugo
+      - nkf
+      - nodebrew
+      - rbenv
+      - ruby-build
+      - tree
+      - wget
+      - zsh
+
+- name: install vim
+  homebrew:
+    name:
+      - vim
+    install_options:
+      --with-override-system-vi
