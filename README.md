@@ -1,5 +1,5 @@
 # ansible-mac
-This config for bash and vim, git
+
 
 ## Installation
 ```
