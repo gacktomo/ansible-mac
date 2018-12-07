@@ -1,11 +1,12 @@
-# dotfiles
+# ansible-mac
 This config for bash and vim, git
+
+## Installation
+```
+brew install ansible
+```
 
 ## Usage
 ```
-./install.sh
-```
-Install vim plugins at vim command
-```
-:PlugInstall
+ansible-playbook playbooks/my-mac.yml 
 ```
